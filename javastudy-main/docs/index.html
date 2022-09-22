@@ -7,8 +7,27 @@
 
     
 
-    <title>Archives | </title>
+    <title></title>
     <meta name="author" content="zyy">
+    
+    <meta name="description" content="Javastudy
+    
+    
+    
+    
+    
+  
+
+  
+    
+      zyy的GitHub地址
+    
+    
+    
+    
+    
+      // 离线支持
+      if (typeof navigator.serviceWorker !== ">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -177,46 +196,138 @@
 
     <main>
         <div class="container main-container">
-    
-
-<nav class="page-nav hide-on-small-only">
+    <nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">Current page(Archives)</span>
+        <span class="breadcrumb">Current page(Categories)</span>
+        
+            
+
         
 
         
     </div>
 </nav>
 
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>No title</h1>
+    
 
 
-    <ul class="collapsible mt-0" data-collapsible="accordion">
-        
-        
-            <li>
-                <div class="collapsible-header active">
-                    <i class="fa fa-archive"></i>2022
-                </div>
-                <div class="collapsible-body">
-                    <div class="collection">
-                        
-                            <a href="/2022/09/16/javabase-blog/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2022-09-16T04:50:10.000Z">2022-09-16</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                javabase-blog
-                            </a>
-                        
-                            <a href="/2022/09/16/hello-world/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2022-09-16T04:43:15.417Z">2022-09-16</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                Hello World
-                            </a>
-                        
-                    </div>
-                </div>
-            </li>
-        
-    </ul>
+            </div>
+            <time class="green-link-context" datetime="2022-09-22T14:31:31.275Z"><a href="/javastudy-main/docs/index.html">2022-09-22</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+
+            <div class="toc green-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry green-link-context">
+                <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Javastudy</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <!--主题-->
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a target="_blank" rel="noopener" href="https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7"
+      >zyy的GitHub地址</a>
+    </nav>
+    <div id="app"></div>
+    <!-- docsify-edit-on-github -->
+    <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+    <script>
+      // 离线支持
+      if (typeof navigator.serviceWorker !== "undefined") {
+        navigator.serviceWorker.register("sw.js");
+      }
+      window.$docsify = {
+        name: "javastudy of zyy",
+        repo: "https://github.com",
+        maxLevel: 4, //最大支持渲染的标题层级
+        //封面,_coverpage.md
+        coverpage: true,
+        auto2top: true, //切换页面后是否自动跳转到页面顶部
+        //ga: 'UA-138586553-1',
+        //logo: 'https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3logo-透明.png' ,
+        search: {
+          //maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+          paths: "auto",
+          placeholder: "搜索",
+          noData: "找不到结果",
+          // 搜索标题的最大程级, 1 - 6
+          depth: 3,
+        },
+        // 字数统计
+        count: {
+          countable: true,
+          fontsize: "0.9em",
+          color: "rgb(90,90,90)",
+          language: "chinese",
+        },
+        plugins: [
+          EditOnGithubPlugin.create(
+            "https://github.com/Snailclimb/JavaGuide/blob/master/"
+          ),
+        ],
+      };
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <!--Java代码高亮-->
+    <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+    <!--全文搜索,直接用官方提供的无法生效-->
+    <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+    <!--谷歌统计
+  <script src="//unpkg.com/docsify" data-ga="UA-138586553-1"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
+  -->
+    <!-- 复制到剪贴板 -->
+    <script src="//unpkg.com/docsify-copy-code"></script>
+    <!-- 图片缩放 -->
+    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+    <!-- 表情 -->
+    <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
+    <!-- 字数统计 -->
+    <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+   </script>
+  </body>
+</html>
+                
+
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
+
+
 
 
 </div>
