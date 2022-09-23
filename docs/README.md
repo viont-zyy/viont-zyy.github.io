@@ -4,7 +4,7 @@
 
 
 
-### [Java基础](./javabase/Java基础.md)
+### [Java基础](./java/javabase/Java基础.md)
 
 ### Java集合类
 
