@@ -6,7 +6,7 @@
 
 ### [Java基础](./java/javabase/Java基础.md)
 
-### Java集合类
+### [Java集合类](./java/javaCollection/Java集合类.md)
 
 ### Java并发
 
