@@ -561,5 +561,29 @@ public static String test2(List<? extends Object> t){
 
 ### 反射
 
+#### 什么是反射？如何使用？
 
+JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意一个方法和属性；这种动态获取的信息以及动态调用对象的方法的功能称为java语言的反射机制。
 
+在Java中，Class类与反射包一起对反射技术进行了全力的支持。
+
+- Class类对象的获取
+
+```java
+    @Test
+    public void classTest() throws Exception {
+        // 获取Class对象的三种方式
+        logger.info("根据类名:  \t" + User.class);
+        logger.info("根据对象:  \t" + new User().getClass());
+        logger.info("根据全限定类名:\t" + Class.forName("com.test.User"));
+        // 常用的方法
+        logger.info("获取全限定类名:\t" + userClass.getName());
+        logger.info("获取类名:\t" + userClass.getSimpleName());
+        logger.info("实例化:\t" + userClass.newInstance());
+    }
+    
+```
+
+- Constructor类，主要表示Class 对象所表示的类的构造方法，利用它可以在运行时动态创建对象。
+- Field类及其用法，表示Class对象所表示的类的成员变量，通过它可以在运行时动态修改成员变量的属性值(包含private)。
+- Method类及其用法，Method表示Class对象所表示的类的成员方法，通过它可以动态调用对象的方法(包含private)
