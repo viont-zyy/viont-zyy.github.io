@@ -8,7 +8,7 @@ Java 集合， 也叫作容器，主要是由两大接口派生而来：一个�
 
 Java 集合框架的整体结构如下图所示：
 
-![](F:\javastudy-main\viont-zyy.github.io\docs\java\javaCollection\images\java_collections_overview.png)
+![image]( https://raw.githubusercontent.com/viont-zyy/viont-zyy.github.io/main/docs/java/javaCollection/images/java_collections_overview.png)
 
 常见的集合类及其实现有：
 
