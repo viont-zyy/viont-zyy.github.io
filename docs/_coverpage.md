@@ -1,4 +1,4 @@
-![](F:\javastudy-main\viont-zyy.github.io\docs\favicon.jpg)
+<img src="md/favicon.jpg" style="zoom: 50%;" />
 
 # javastduy of zyy
 

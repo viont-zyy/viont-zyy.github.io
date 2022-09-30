@@ -16,23 +16,23 @@
 
 ## 计算机基础
 
-### 操作系统
+### 操作系统（待补充）
 
 ### [计算机网络](md/computer-basics/computer-network/计算机网络.md)
 
-### 数据结构
+### 数据结构（待补充）
 
-### 算法
+### 算法（待补充）
 
 
 
 ## 数据库
 
-### 数据库基础
+### [数据库基础](md/database/Database-Basis/数据库基础.md)
 
 ### [MySQL](md/database/mysql/MySQL.md)
 
-### Redis
+### [Redis](md/database/redis/Redis.md)
 
 
 
@@ -54,5 +54,5 @@
 
 ### git
 
-### docker
+### docker（待补充）
 
